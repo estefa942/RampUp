@@ -1,0 +1,36 @@
+.navbar{
+    background-color: black;
+    padding: 4px;
+    text-align: center;
+}
+
+ul{
+    
+    }
+    
+li{
+    display: inline;
+    padding: 26px;
+    
+}
+
+li:hover{
+    background: rgb(224, 186, 80);
+    }
+
+nav a{
+    display: inline-block;
+    text-align: center;
+    line-height: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: azure;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px 45px;
+}
+
+nav a:active{
+    background: rgb(224, 186, 80);
+}
+
+
