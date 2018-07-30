@@ -1,0 +1,11 @@
+.title{
+   background-color: rgb(235, 220, 90);
+   padding: 3px;
+    
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 1000;
+    text-align: center;
+}

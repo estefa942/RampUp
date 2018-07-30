@@ -3,19 +3,12 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-    "title title"
-    "header header"
-    "sidebar content"
+    "content content"
     "footer footer";
 
 }
 
-.title{
-    grid-area: title;
-}
-.header{
-    grid-area: header;
-}
+
 .sidebar{
     grid-area: sidebar;
 }
@@ -26,12 +19,7 @@
     grid-area: footer;
 }
 
-.grid div:nth-child(even){ /*para colorear el area de los impares*/
-    background-color: cyan;
-}
-.grid div:nth-child(odd){
-    background-color: blueviolet;
-}
+
 
 @media screen and (min-width:736px){
     .grid{
