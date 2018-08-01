@@ -1,6 +1,10 @@
 <div class="grid">
   <div class="sidebar">
-    <img src="../../">
+    <ul class="list">
+      <li *ngFor="let imagen of imagenes" class="list_item">
+        <img src={{imagen}} class="list_item_small">
+      </li>      
+    </ul>   
   </div>
   <div class="content">Content</div>
   <div class="footer">Footer</div>

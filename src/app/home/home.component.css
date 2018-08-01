@@ -1,9 +1,10 @@
 .grid{
     display: grid;
+    background-color: black;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-    "content content"
+    "sidebar sidebar"
     "footer footer";
 
 }
@@ -11,6 +12,7 @@
 
 .sidebar{
     grid-area: sidebar;
+   
 }
 .content{
     grid-area: content;
@@ -18,18 +20,27 @@
 .footer{
     grid-area: footer;
 }
+.list{
+    margin-top: 0%;
+    margin-left: 45px;
+    padding: 0%;
+}
 
-
-
+.list_item{
+    display: inline-block;
+    margin: auto;
+}
+.list_item_small{
+    width: 410px;
+    height: 320px;
+}
 @media screen and (min-width:736px){
     .grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-areas: 
-        "title title"
-        "header header"
-        "sidebar content"
+        "sidebar sidebar"
         "footer footer";
     
     }

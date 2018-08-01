@@ -6,12 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+ imagenes:string[]= ["../../assets/Recursos/restaurante1.jpeg",
+ "../../assets/Recursos/restaurante2.jpg","../../assets/Recursos/restaurante3.jpg"];  
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  
+
   
 }
