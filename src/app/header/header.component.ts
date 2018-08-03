@@ -12,5 +12,5 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-  Tittle="Restaurantes Laoba"
+  Tittle="Restaurante Laoba"
 }

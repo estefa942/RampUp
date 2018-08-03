@@ -1,24 +1,71 @@
 .grid{
     display: grid;
     background-color: black;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto auto;
+    grid-template-rows: 500px 300px 600px;
     grid-template-areas: 
-    "sidebar sidebar"
-    "footer footer";
+    "slider slider"
+    "information "
+    "presentation "
+    
 
 }
 
 
-.sidebar{
-    grid-area: sidebar;
+.slider{
+    grid-area: slider;
+    justify-self: center;
+    height: 350px;
+
    
 }
-.content{
-    grid-area: content;
+.information{
+    grid-area: information;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-self: center;
+    width: 1200px;
+    height: 200px;
+ 
 }
-.footer{
-    grid-area: footer;
+.information_tittle{
+    color: rgb(235, 220, 90);    
+    text-align: center;
+}
+.information_description{
+    color: white;
+    text-align: center;
+}
+.presentation{
+    grid-area: presentation;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-self: center;
+    height: 600px;
+}
+.presentation_tittle{
+    color: rgb(238, 144, 67);
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.presentation_item{
+    display: inline-block;
+    width: 400px;
+    margin: 50px;
+    text-align: center;
+    
+}
+.presentation_item_tittle{
+
+}
+.presentation_item_image{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+.presentation_item_information{
+    
 }
 .list{
     margin-top: 0%;
@@ -40,8 +87,9 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-areas: 
-        "sidebar sidebar"
-        "footer footer";
+        "slider slider"
+        "information information"
+        "presentation presentation"
     
     }
 }

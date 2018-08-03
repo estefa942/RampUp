@@ -1,11 +1,22 @@
 <div class="grid">
-  <div class="sidebar">
+  <div class="slider">
     <ul class="list">
       <li *ngFor="let imagen of imagenes" class="list_item">
         <img src={{imagen}} class="list_item_small">
       </li>      
     </ul>   
   </div>
-  <div class="content">Content</div>
-  <div class="footer">Footer</div>
+  <div class="information">
+    <h1 class="information_tittle">{{tittle}}</h1>
+    <p class="information_description">{{description}}</p>
+  </div>
+  <div class="presentation">
+    <h1 class="presentation_tittle">Nuestra familia</h1>
+    <div *ngFor="let worker of workers" class="presentation_item">
+      <h1 class="presentation_item_tittle">{{worker.name}}</h1>
+      <img src="{{worker.photo}}" class="presentation_item_image">
+      <p class="presentation_item_info">{{worker.information}}</p>
+    </div>
+  </div>
+  
 </div>
