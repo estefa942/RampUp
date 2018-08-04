@@ -1,0 +1,52 @@
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.information{
+    flex: 100%;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-self: center;
+    height: 200px;
+ 
+}
+.information_tittle{
+    color: rgb(235, 220, 90);    
+    text-align: center;
+}
+.information_description{
+    color: white;
+    text-align: center;
+}
+.presentation{
+    flex: 100%;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-self: center;
+    height: 600px;
+}
+.presentation_tittle{
+    color: rgb(238, 144, 67);
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.presentation_content{
+    flex: 100%;
+    text-align: center;
+}
+.presentation_item{
+    display: inline-block;
+    flex: 33.33%;
+    width: 400px;
+    margin: 50px;
+    text-align: center;
+    
+}
+
+.presentation_item_image{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}

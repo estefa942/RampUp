@@ -1,19 +1,20 @@
-<nav class="navbar">
+<nav class="navbar" ng-init="home">
   <ul>
     <li>
-       <a routerLink="/">Inicio</a>
+       <a routerLink="/home">Inicio</a>
     </li>
     <li>
-       <a routerLink="/">Restaurantes</a>
+       <a routerLink="/restaurante">Restaurantes</a>
     </li>
     <li>
-      <a routerLink="/">Reservas</a>
+      <a routerLink="/reservas">Reservas</a>
     </li>
     <li>
-      <a routerLink="/">Menú</a>
+      <a routerLink="/menu">Menú</a>
     </li>
     <li>
-      <a routerLink="/">Contáctenos</a>
+      <a routerLink="/contactenos">Contáctenos</a>
     </li>
   </ul> 
 </nav>
+<router-outlet></router-outlet>
