@@ -2,10 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     flex: 100%;
+    position: relative;
+    bottom: 0;
     background-color: black;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: absolute;
-    bottom: 0px;
     width: 100%;
 }

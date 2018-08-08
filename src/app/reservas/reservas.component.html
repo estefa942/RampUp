@@ -3,7 +3,7 @@
   <div class="form_tittle">
     <h1 class="form_tittle_center">Elija tamaño de la mesa</h1>
   </div>
-  <div class="form_content">   
+   <div class="form_content">   
     <button (click)="chooseTable(table)" class="form_content_buttonTables" *ngFor="let table of tables">{{table}}</button>
     <h2>Reserva para {{numberPersons}} personas </h2>
     <button (click)="chooseOptionReservation(reservation)" class="form_content_button-option" *ngFor="let reservation of reservationOptions">{{reservation}}</button>
