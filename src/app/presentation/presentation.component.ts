@@ -22,7 +22,7 @@ export class PresentationComponent implements OnInit {
       },
       {
         name: 'Lorena Delgado',
-        information:'Chef auxilair de nuestra cocina, realizó sus estudios en la universidad cuadrito',
+        information:'Chef auxiliar de nuestra cocina, realizó sus estudios en la universidad cuadrito',
         photo:'../../assets/Recursos/chef2.jpg'
       }
     ];

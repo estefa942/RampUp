@@ -1,0 +1,29 @@
+.flex_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 0%;
+    height: 100%px;  
+}
+
+.form{
+    display: flex;
+    flex-direction: column; 
+    border-style: ridge;
+    border-width: 4px;
+    width: 500px;
+    height: 300px;
+    margin-top: 20%;
+    margin: 0 auto;
+    color: white;
+    align-items: center;
+}
+
+.button_submit{
+    width:80px;
+    height:40px;
+    background-color:#c9f03c;
+    margin: 5px;
+    padding:4px;
+}

@@ -12,8 +12,10 @@ import { ReservasComponent } from './reservas/reservas.component';
 import { MenuComponent } from './menu/menu.component';
 import { ContactenosComponent } from './contactenos/contactenos.component';
 import { PresentationComponent } from './presentation/presentation.component';
+import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes=[
+  {path: '', redirectTo: 'home', pathMatch: 'full' },
   {path:'home',component:HomeComponent},
   {path:'restaurante',component:RestauranteComponent},
   {path:'reservas',component:ReservasComponent},
@@ -31,7 +33,8 @@ const routes: Routes=[
     ReservasComponent,
     MenuComponent,
     ContactenosComponent,
-    PresentationComponent
+    PresentationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
